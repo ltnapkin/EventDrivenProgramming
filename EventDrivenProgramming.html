@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<!--Travieon fields-->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <!--This code is use to make the background loook nicer-->
+    <style>
+
+
+        canvas {
+            background-size: cover;
+            background: url("woodfloor.jpg"); 
+            border: 2px dashed black;
+         
+        }
+       
+
+
+
+    </style>
+
+    <meta charset="utf-8" />
+    
+
+    <title>found a mouse!</title>
+</head>
+<body>
+
+    <!--I use this code to create the canvas for the picture-->
+    <canvas id="playArea" width="500" height="500"></canvas>
+    <!--This script is place underneath the canvas so that the code doesn't give me a error when getting the canvas'-->
+    <script src="EventDrivenScript.js"></script>
+
+    <!--Thisd is where i place the buttons for movingh the "mouse" around the screen and stopping them as well!-->
+    <button id="movePicture" onclick="movePicture()">Move the Mouse</button>
+    <button id="stopPicture" onclick="stopPicture()">Stop the Mouse</button>
+
+
+</body>
+</html>
